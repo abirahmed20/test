@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 #-*-coding:utf-8-*-
 
-'''🙄🧐
-give credit before modifying <3 [>_]
-'''
+#'''🙄🧐
+#give credit before modifying <3 [>_]
+#'''
 
 P = '\x1b[1;97m'
 M = '\x1b[1;31m'
@@ -45,7 +45,7 @@ def xox(z):
 def banner():
 	os.system("clear")
 	print("")
-    print(" xiyitkfzbjzgxtxucd8cpxo6fud97fs966d7f58dr07f06dypux970f\n 96eout8prsgpu9gicuyocccpufoyd6od7poduflufdupfpffpufpufpflufpuf\nofpufufpfydofpuofofoyfouofoditsgdisitsdododo")
+        #print(" xiyitkfzbjzgxtxucd8cpxo6fud97fs966d7f58dr07f06dypux970f\n 96eout8prsgpu9gicuyocccpufoyd6od7poduflufdupfpffpufpufpflufpuf\nofpufufpfydofpuofofoyfouofoditsgdisitsdododo")
 	print("")
 	print("%s╔══════════════════════════════════════════╗"%(Z))
 	print("%s║%s  Author   : %sMR. ERROR-M JOKER                %s║"%(Z,B,M,Z))
